@@ -54,8 +54,8 @@ This project uses Self-Hosted Runner to build and push images to the internal Ne
 
 ### Required GitHub Secrets
 Go to Settings > Secrets > Actions and add:
-**NEXUS_USERNAME**: Your Nexus admin username
-**NEXUS_PASSWORD**: Your Nexus admin password
+- **NEXUS_USERNAME**: Your Nexus admin username
+- **NEXUS_PASSWORD**: Your Nexus admin password
 
 ## Workflow Path
 ```.github/workflows/nexus-deploy.yml ``` triggers on every push to master
